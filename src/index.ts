@@ -1,6 +1,9 @@
 class Index {
-    func(): boolean {
-        return true;
+    func(num: number): number | 'Fizz' {
+        if (num === 3) {
+            return 'Fizz'
+        }
+        return num;
     }
 }
 
